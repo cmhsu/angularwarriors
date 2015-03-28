@@ -1,0 +1,15 @@
+<div class="contentWrap">
+	<div class="imageContainer col-sm-3">
+		<img  ng-src="images/{{lastName}}.png">
+	</div>
+
+	<div class="col-sm-4 col-sm-offset-3 tableWrap">
+		<h2>{{fullName}}</h2>
+		<table class="table">
+			<tr ng-repeat="(key, value) in playerInfo | orderBy:value">
+				<td><b>{{key}}</b></td>
+				<td>{{value}}</td>
+			</tr>
+		</table>
+	</div>
+</div>
