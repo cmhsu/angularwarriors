@@ -3,7 +3,7 @@
 		<img  ng-src="images/{{lastName}}.png">
 	</div>
 
-	<div class="col-sm-4 col-sm-offset-3 tableWrap">
+	<div class="col-sm-4 col-sm-offset-3 tableWrap" ng-class="{DarkMode: dark}">
 		<h2>{{fullName}}</h2>
 		<table class="table">
 			<tr ng-repeat="(key, value) in playerInfo | orderBy:value">

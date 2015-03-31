@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<html ng-app="myApp">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,16 +13,16 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/app.css">
 </head>
-<body ng-app="myApp">
+<body ng-class="{changeTheme: dark}">
+  <div>
+    <h1 ng-class="{changeTheme: dark}">Warriors Current Team</h1>
 
-<h1>Warriors Current Team</h1>
+        <my-navigation></my-navigation>
 
-			<my-navigation></my-navigation>
-
-			<div class="view-container">
-		    <div ng-view class="view-frame"></div>
-			</div>
-
+        <div class="view-container">
+          <div ng-view class="view-frame"></div>
+        </div>
+  </div>
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script src="bower_components/angular/angular.js"></script>
 	<script src="bower_components/angular-animate/angular-animate.js"></script>

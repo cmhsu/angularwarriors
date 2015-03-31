@@ -1,19 +1,22 @@
-<div class="col-sm-2 navigation" ng-controller="playerCtrl">
+<div class="col-sm-2 navigation">
+	<a class="btn btn-primary btn-lg dark-mode-btn"
+	   ng-class="{darkMode: dark}" ng-click="dark = !dark">Toggle Theme</a>
+	<br><br>
 	<div class="btn-group-vertical">
-		<a class="btn btn-primary btn-lg" ng-class="{active: isActive('barbosa')}" href="#/barbosa">Leandro Barbosa</a>
-		<a class="btn btn-primary btn-lg" ng-class="{active: isActive('barnes')}" href="#/barnes">Harrison Barnes</a>
-		<a class="btn btn-primary btn-lg" ng-class="{active: isActive('bogut')}" href="#/bogut">Andrew Bogut</a>
-		<a class="btn btn-primary btn-lg" ng-class="{active: isActive('curry')}" href="#/curry">Stephen Curry</a>
-		<a class="btn btn-primary btn-lg" ng-class="{active: isActive('ezeli')}" href="#/ezeli">Festus Ezeli</a>
-		<a class="btn btn-primary btn-lg" ng-class="{active: isActive('green')}" href="#/green">Draymond Green</a>
-		<a class="btn btn-primary btn-lg" ng-class="{active: isActive('holiday')}" href="#/holiday">Justin Holiday</a>
-		<a class="btn btn-primary btn-lg" ng-class="{active: isActive('iguodala')}" href="#/iguodala">Andre Iguodala</a>
-		<a class="btn btn-primary btn-lg" ng-class="{active: isActive('kuzmic')}" href="#/kuzmic">Ognjen Kuzmic</a>
-		<a class="btn btn-primary btn-lg" ng-class="{active: isActive('lee')}" href="#/lee">David Lee</a>
-		<a class="btn btn-primary btn-lg" ng-class="{active: isActive('livingston')}" href="#/livingston">Shaun Livingston</a>
-		<a class="btn btn-primary btn-lg" ng-class="{active: isActive('mcadoo')}" href="#/mcadoo">James Michael McAdoo</a>
-		<a class="btn btn-primary btn-lg" ng-class="{active: isActive('rush')}" href="#/rush">Brandon Rush</a>
-		<a class="btn btn-primary btn-lg" ng-class="{active: isActive('speights')}" href="#/speights">Marreese Speights</a>
-		<a class="btn btn-primary btn-lg" ng-class="{active: isActive('thompson')}" href="#/thompson">Klay Thompson</a>
+		<a class="btn btn-primary btn-lg" ng-class="{active: isActive('barbosa'), darkMode: dark}" href="#/barbosa">Leandro Barbosa</a>
+		<a class="btn btn-primary btn-lg" ng-class="{active: isActive('barnes'), darkMode: dark}" href="#/barnes">Harrison Barnes</a>
+		<a class="btn btn-primary btn-lg" ng-class="{active: isActive('bogut'), darkMode: dark}" href="#/bogut">Andrew Bogut</a>
+		<a class="btn btn-primary btn-lg" ng-class="{active: isActive('curry'), darkMode: dark}" href="#/curry">Stephen Curry</a>
+		<a class="btn btn-primary btn-lg" ng-class="{active: isActive('ezeli'), darkMode: dark}" href="#/ezeli">Festus Ezeli</a>
+		<a class="btn btn-primary btn-lg" ng-class="{active: isActive('green'), darkMode: dark}" href="#/green">Draymond Green</a>
+		<a class="btn btn-primary btn-lg" ng-class="{active: isActive('holiday'), darkMode: dark}" href="#/holiday">Justin Holiday</a>
+		<a class="btn btn-primary btn-lg" ng-class="{active: isActive('iguodala'), darkMode: dark}" href="#/iguodala">Andre Iguodala</a>
+		<a class="btn btn-primary btn-lg" ng-class="{active: isActive('kuzmic'), darkMode: dark}" href="#/kuzmic">Ognjen Kuzmic</a>
+		<a class="btn btn-primary btn-lg" ng-class="{active: isActive('lee'), darkMode: dark}" href="#/lee">David Lee</a>
+		<a class="btn btn-primary btn-lg" ng-class="{active: isActive('livingston'), darkMode: dark}" href="#/livingston">Shaun Livingston</a>
+		<a class="btn btn-primary btn-lg" ng-class="{active: isActive('mcadoo'), darkMode: dark}" href="#/mcadoo">James Michael McAdoo</a>
+		<a class="btn btn-primary btn-lg" ng-class="{active: isActive('rush'), darkMode: dark}" href="#/rush">Brandon Rush</a>
+		<a class="btn btn-primary btn-lg" ng-class="{active: isActive('speights'), darkMode: dark}" href="#/speights">Marreese Speights</a>
+		<a class="btn btn-primary btn-lg" ng-class="{active: isActive('thompson'), darkMode: dark}" href="#/thompson">Klay Thompson</a>
 	</div>
 </div>

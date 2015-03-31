@@ -13,5 +13,6 @@ myControllers.controller('playerCtrl', ['$scope', '$http', '$routeParams', 'full
 			return person == $routeParams.name;
 		};
 		$scope.lastName = name;
+		$scope.dark = false;
 	}
 ]);
