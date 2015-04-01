@@ -44,6 +44,10 @@ img {
     width: 430px;
 }
 
+.table>tbody>tr>td, .table>thead>tr>td {
+    border-top: 1px dashed #ffffff;
+}
+
 h1 {
     font-family: "Lucida Grande", "Helvetica Nueue", Arial, sans-serif;
     font-size: 50px;

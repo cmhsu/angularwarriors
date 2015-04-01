@@ -14,6 +14,5 @@ myControllers.controller('playerCtrl', ['$scope', '$http', '$routeParams', 'full
 		};
 		$scope.lastName = name;
 		$scope.dark = false;
-		$rootScope.moved = true;
 	}
 ]);
