@@ -79,16 +79,16 @@ h1 {
 
 .darkMode {
     color: #f5c42d;
-    background: #0031d1;
+    background: #0031ff;
 }
 
 .darkMode:hover, .darkMode:active, .darkMode.active, .darkMode:focus {
-    color: #0031d1;
+    color: #0031ff;
     background: #f5c42d;
 }
 
 .changeTheme {
     background: #000000;
-    color: #0031d1;
+    color: #0031ff;
 }
 
