@@ -66,6 +66,14 @@ h1 {
     transition: 0.35s linear all;
 }
 
+.darkMode-add, .darkMode-remove,
+.changeTheme-add, .changeTheme-remove {
+    -webkit-transition: .25s linear all;
+    -moz-transition: .25s linear all;
+    -o-transition: .25s linear all;
+    transition: .25s linear all;
+}
+
 .view-frame.ng-enter {
     opacity: 0;
     height: 0;
