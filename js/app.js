@@ -1,8 +1,8 @@
 'use strict';
 
 angular.module('myApp', [
-  'ngRoute',
-  'myApp.version',
+'ngRoute',
+	'myApp.version',
 	'ngAnimate',
 	'myServices',
 	'myControllers',
@@ -10,12 +10,12 @@ angular.module('myApp', [
 ])
 
 .config(['$routeProvider', function($routeProvider) {
-  $routeProvider.
-	  when('/:name', {
-		  templateUrl: 'templates/player-view.html',
-		  controller: 'playerCtrl'
-	  }).
-	  otherwise({
-		  redirectTo: '/barbosa'}
-    );
+	$routeProvider.
+		when('/:name', {
+			templateUrl: 'templates/player-view.html',
+			controller: 'playerCtrl'
+		}).
+		otherwise({
+			redirectTo: '/barbosa'}
+	);
 }]);
