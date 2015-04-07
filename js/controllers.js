@@ -2,8 +2,8 @@
 
 var myControllers = angular.module('myControllers', []);
 
-myControllers.controller('playerCtrl', ['$scope', '$http', '$routeParams', 'fullName', '$rootScope',
-	function($scope, $http, $routeParams, fullName, $rootScope) {
+myControllers.controller('playerCtrl', ['$scope', '$http', '$routeParams', 'fullName',
+	function($scope, $http, $routeParams, fullName) {
 		var name = $routeParams.name;
 		$http.get('player-info/' + name + '.json').success(function(data) {
 			$scope.playerInfo = data;
